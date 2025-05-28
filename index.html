@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ActiveFit - Votre Salle de Sport à Dakar</title>
+    <meta name="description" content="ActiveFit, la meilleure salle de sport de Dakar. Musculation, cardio, cours collectifs et coaching personnel. Rejoignez-nous dès aujourd'hui !">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>ActiveFit</h2>
+                    <span class="tagline">Dakar</span>
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#accueil" class="nav-link active">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tarifs" class="nav-link">Tarifs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">À Propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-cta">
+                    <a href="#contact" class="btn btn-primary">Essai Gratuit</a>
+                </div>
+                
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Hero -->
+    <section class="hero" id="accueil">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Transformez Votre Corps à <span class="highlight">ActiveFit Dakar</span>
+                    </h1>
+                    <p class="hero-description">
+                        La salle de sport la plus moderne de Dakar vous attend. Équipements de pointe, 
+                        coaching professionnel et ambiance motivante pour atteindre vos objectifs fitness.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary btn-large">
+                            <i class="fas fa-play"></i>
+                            Commencer Maintenant
+                        </a>
+                        <a href="#services" class="btn btn-outline btn-large">
+                            <i class="fas fa-info-circle"></i>
+                            Découvrir Nos Services
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Membres Actifs</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Années d'Expérience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Accès Disponible</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/hero-gym-dakar.jpg" alt="Salle de sport moderne ActiveFit Dakar" class="hero-img">
+                </div>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="decoration-circle circle-1"></div>
+            <div class="decoration-circle circle-2"></div>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Services</h2>
+                <p class="section-description">
+                    Des équipements de dernière génération et des services adaptés à tous les niveaux
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3 class="service-title">Musculation</h3>
+                    <p class="service-description">
+                        Espace musculation équipé des dernières machines et poids libres pour tous vos entraînements.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature">Machines dernière génération</span>
+                        <span class="feature">Coaching personnalisé</span>
+                        <span class="feature">Programmes adaptés</span>
+                    </div>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="service-title">Cardio Training</h3>
+                    <p class="service-description">
+                        Zone cardio climatisée avec tapis de course, vélos elliptiques et rameurs connectés.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature">Équipements connectés</span>
+                        <span class="feature">Suivi des performances</span>
+                        <span class="feature">Programmes HIIT</span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="service-title">Cours Collectifs</h3>
+                    <p class="service-description">
+                        Zumba, CrossFit, Yoga, Pilates... Rejoignez nos cours dynamiques en groupe.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature">15+ cours différents</span>
+                        <span class="feature">Instructeurs certifiés</span>
+                        <span class="feature">Planning flexible</span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3 class="service-title">Coaching Personnel</h3>
+                    <p class="service-description">
+                        Bénéficiez d'un accompagnement personnalisé avec nos coachs diplômés d'État.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature">Programmes sur-mesure</span>
+                        <span class="feature">Suivi nutritionnel</span>
+                        <span class="feature">Résultats garantis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ce Que Disent Nos Membres</h2>
+                <p class="section-description">
+                    Découvrez les témoignages de ceux qui ont transformé leur vie chez ActiveFit
+                </p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "ActiveFit a complètement changé ma routine. L'ambiance est excellente et les coachs sont très professionnels. J'ai perdu 15kg en 6 mois !"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/testimonial-aminata.jpg" alt="Aminata Diop" class="author-avatar">
+                            <div class="author-info">
+                                <h4 class="author-name">Aminata Diop</h4>
+                                <span class="author-role">Membre depuis 1 an</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Les équipements sont top et toujours bien entretenus. L'accès 24h/24 me permet de m'entraîner selon mon planning de travail. Je recommande !"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/testimonial-moussa.jpg" alt="Moussa Kane" class="author-avatar">
+                            <div class="author-info">
+                                <h4 class="author-name">Moussa Kane</h4>
+                                <span class="author-role">Membre depuis 2 ans</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-nav">
+                    <button class="nav-btn prev-btn" id="prevBtn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="nav-btn next-btn" id="nextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Tarifs -->
+    <section class="pricing" id="tarifs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Tarifs</h2>
+                <p class="section-description">
+                    Des formules adaptées à tous les budgets, sans engagement
+                </p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="plan-name">Découverte</h3>
+                        <div class="plan-price">
+                            <span class="price">15,000</span>
+                            <span class="currency">FCFA</span>
+                            <span class="period">/mois</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Accès salle de musculation</li>
+                        <li><i class="fas fa-check"></i> Espace cardio</li>
+                        <li><i class="fas fa-check"></i> 2 cours collectifs/semaine</li>
+                        <li><i class="fas fa-times"></i> Coaching personnalisé</li>
+                        <li><i class="fas fa-times"></i> Accès 24h/24</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Choisir ce Plan</a>
+                </div>
+                
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Le Plus Populaire</div>
+                    <div class="pricing-header">
+                        <h3 class="plan-name">Premium</h3>
+                        <div class="plan-price">
+                            <span class="price">25,000</span>
+                            <span class="currency">FCFA</span>
+                            <span class="period">/mois</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Accès complet à la salle</li>
+                        <li><i class="fas fa-check"></i> Tous les cours collectifs</li>
+                        <li><i class="fas fa-check"></i> 2 séances coaching/mois</li>
+                        <li><i class="fas fa-check"></i> Accès 24h/24</li>
+                        <li><i class="fas fa-check"></i> Programme nutritionnel</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Choisir ce Plan</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="plan-name">VIP</h3>
+                        <div class="plan-price">
+                            <span class="price">40,000</span>
+                            <span class="currency">FCFA</span>
+                            <span class="period">/mois</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Tous les avantages Premium</li>
+                        <li><i class="fas fa-check"></i> Coaching illimité</li>
+                        <li><i class="fas fa-check"></i> Suivi nutritionnel complet</li>
+                        <li><i class="fas fa-check"></i> Accès espace VIP</li>
+                        <li><i class="fas fa-check"></i> Parking privé</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Choisir ce Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Contactez-Nous</h2>
+                    <p class="section-description">
+                        Prêt à commencer votre transformation ? Contactez-nous dès maintenant !
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Adresse</h4>
+                                <p>Avenue Cheikh Anta Diop, Dakar, Sénégal</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Téléphone</h4>
+                                <p>+221 33 123 45 67</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>contact@activefit-dakar.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Horaires</h4>
+                                <p>Lun-Ven: 06h00-23h00<br>Sam-Dim: 08h00-20h00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Essai Gratuit</h3>
+                        <p>Réservez votre séance d'essai gratuite dès maintenant</p>
+                        
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Votre nom complet" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Votre email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Votre téléphone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Choisir un service</option>
+                                <option value="musculation">Musculation</option>
+                                <option value="cardio">Cardio Training</option>
+                                <option value="cours">Cours Collectifs</option>
+                                <option value="coaching">Coaching Personnel</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Votre message (optionnel)" rows="4"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Réserver Mon Essai Gratuit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>ActiveFit</h3>
+                        <span>Dakar</span>
+                    </div>
+                    <p class="footer-description">
+                        Votre salle de sport de référence à Dakar. Transformez votre corps et votre esprit avec nos équipements modernes et notre équipe passionnée.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Liens Rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#tarifs">Tarifs</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Musculation</a></li>
+                        <li><a href="#">Cardio Training</a></li>
+                        <li><a href="#">Cours Collectifs</a></li>
+                        <li><a href="#">Coaching Personnel</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Avenue Cheikh Anta Diop, Dakar</p>
+                        <p><i class="fas fa-phone"></i> +221 33 123 45 67</p>
+                        <p><i class="fas fa-envelope"></i> contact@activefit-dakar.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ActiveFit Dakar. Tous droits réservés.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/animations.js"></script>
+</body>
+</html>
